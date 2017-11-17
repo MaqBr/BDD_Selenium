@@ -7,8 +7,9 @@ using System.Threading;
 
 namespace cadastroLogin
 {
-    
 
+    //Curso módulo 01: https://www.youtube.com/watch?v=tfq9FlkyaUM&index=1&list=PL6tu16kXT9Pp3wrsaYyNRnK1QkvVv6qdI
+    //Curso módulo 02: https://www.youtube.com/watch?v=rtngntjED7U&list=PL6tu16kXT9PrAjLHMTtttMybnV1kDpCXk
     [Binding]
     public class CadastrarSteps
     {
@@ -17,7 +18,6 @@ namespace cadastroLogin
         public void GivenQueEstouNaPaginaDeCadastro()
         {
             driver.Navigate().GoToUrl("http://192.168.207.157/Usuario/Adicionar/");
-            //driver.Navigate().GoToUrl("http://200.129.242.3:50080/Usuario/Adicionar/");
         }
 
         [Given(@"eu preencho o campo nome (.*)")]
